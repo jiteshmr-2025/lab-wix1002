@@ -20,7 +20,7 @@ public class L1Q4 {
         int[] sales = {2500, 1600, 2000, 2700, 3200, 800};
 
         // Print title
-        System.out.println("TOTAL SALES OF PRODUCT A (JAN – JUN 2016)");
+        System.out.println("TOTAL SALES OF PRODUCT A (JAN -> JUN 2016)");
         System.out.println("=========================================");
         System.out.println();
         
@@ -30,7 +30,7 @@ public class L1Q4 {
             for (int j = 0; j < sales[i] / scale; j++){
                 System.out.print("*");
             }
-            System.out.printf("(%d)%n", sales[i]);
+            System.out.printf("\t(%d)%n", sales[i]);
         }
     }
     
