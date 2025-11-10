@@ -9,10 +9,6 @@ import java.util.Scanner;
  * @author jites
  */
 public class L4Q1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
