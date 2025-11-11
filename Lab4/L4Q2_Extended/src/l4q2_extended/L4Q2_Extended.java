@@ -1,16 +1,16 @@
 /*
-Write a program that accepts an integer n from user and then sum the following
-series.
-1 + (1+2) + (1+2+3) + … + (1+2+3+…+n)
-*/
-package l4q2;
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package l4q2_extended;
+
 import java.util.Scanner;
 
 /**
  *
  * @author jites
  */
-public class L4Q2 {
+public class L4Q2_Extended {
     public static void main(String[] args) {
         int sum = 0;
         Scanner input = new Scanner(System.in);
