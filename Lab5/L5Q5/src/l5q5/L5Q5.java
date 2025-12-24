@@ -59,6 +59,7 @@ public class L5Q5 {
         }
         System.out.printf("Linear search: %d loop(s)%n", linearLooped);
         
+        
         // Binary search
         int binaryLooped = 0;
         int low = 0;

@@ -90,9 +90,9 @@ public class L4Q4_Extended {
 
         // 4. Print the calendar
         System.out.printf("%n%s %d%n", monthName, year);
-        System.out.println("-------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------------------");
         System.out.println("\tSu\tMo\tTu\tWe\tTh\tFr\tSa");
-        System.out.println("-------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------------------");
 
         // 5. Fix for printing the initial spaces
         for (int i = 0; i < firstDayOfMonth; i++) {
