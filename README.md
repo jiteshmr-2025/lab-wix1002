@@ -150,7 +150,7 @@ lab-wix1002/
 
 - **Q7/Money.java** - Currency breakdown calculator
   - **New Concepts:** Object arithmetic (adding/subtracting objects), working with cents, Swedish rounding
-  - **What you'll learn:** Creating methods that return new objects (`add()` and `subtract()` methods), currency rounding algorithms, modulo operations for rounding
+  - **What you'll learn:** Creating methods that return new objects (`add()` and `subtract()` return new Money objects), currency rounding algorithms, modulo operations for rounding
   - **Challenge:** Breaking down money into notes (RM100, RM50, RM10, RM5, RM1) and coins (50¢, 20¢, 10¢, 5¢)
 
 **Key Concepts:** Class design, constructors (default, parameterized, overloaded), instance variables, private fields, accessor/mutator methods, static variables/methods, encapsulation, object instantiation, object arithmetic, recursion
