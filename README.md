@@ -116,13 +116,44 @@ lab-wix1002/
 ---
 
 ### Lab 8: Object-Oriented Programming
-**Topics:** Classes, objects, constructors, encapsulation
-- **L8Q1** - Contains multiple OOP questions:
-  - **Q1/Number.java** - Number class with array operations (even numbers, prime numbers, max, min, average, square calculations)
-  - **Q2/BankAccount.java** - Bank account management system
-  - **Q3+** - Additional OOP exercises
+**Topics:** Classes, objects, constructors, encapsulation, accessor/mutator methods, static members
 
-**Key Concepts:** Class design, constructors (default, parameterized), instance variables, methods, encapsulation, object instantiation
+- **Q1/Number.java** - Number class with array operations
+  - **New Concepts:** Constructor overloading (3 constructors with different parameters), instance variables, methods working with arrays
+  - **What you'll learn:** Creating multiple constructors (default, parameterized, partially parameterized) to initialize objects flexibly
+  - **Operations:** Random number generation, finding even/prime numbers, calculating max/min/average, array squaring
+
+- **Q2/BankAccount.java** - Bank account management system
+  - **New Concepts:** Instance variables for object state, multiple methods working together
+  - **What you'll learn:** Building a complete class with deposit/withdraw/balance operations, input validation, conditional string checking with `.matches()`
+  - **Real-world application:** Simulating a banking system with balance tracking and transaction validation
+
+- **Q3/WeightCalculator.java** - Recommended weight calculator
+  - **New Concepts:** Combining user input with calculations in a class
+  - **What you'll learn:** Creating methods that interact (input → calculation → display), using Scanner within a class
+  - **Formula application:** `recommendedWeight = (height - 100 + age / 10) * 0.9`
+
+- **Q4/Fraction.java** - Fraction reduction and manipulation
+  - **New Concepts:** **Accessor (getter) and Mutator (setter) methods**, private instance variables
+  - **What you'll learn:** Implementing encapsulation with private fields, using getters/setters to control access, recursive GCD algorithm
+  - **Key feature:** Reducing fractions to lowest terms using Greatest Common Divisor (GCD)
+
+- **Q5/Game.java** - Dice game simulation
+  - **New Concepts:** Object interaction, tracking state across method calls
+  - **What you'll learn:** Creating game objects with state (player name, cumulative score), simulating random events (dice rolls)
+  - **Game logic:** Rolling dice until a player reaches 100 or more points
+
+- **Q6/Burger.java** - Multi-stall burger sales tracker
+  - **New Concepts:** **Static variables and static methods**, tracking data across all instances
+  - **What you'll learn:** Difference between instance variables (per object) and static variables (shared by all objects), class-level data tracking
+  - **Application:** Tracking individual stall sales AND total sales across all stalls
+
+- **Q7/Money.java** - Currency breakdown calculator
+  - **New Concepts:** Object arithmetic (adding/subtracting objects), working with cents, Swedish rounding
+  - **What you'll learn:** Creating methods that return new objects (`add()` and `subtract()` return new Money objects), currency rounding algorithms, modulo operations for rounding
+  - **Challenge:** Breaking down money into notes (RM100, RM50, RM10, RM5, RM1) and coins (50¢, 20¢, 10¢, 5¢)
+
+**Key Concepts:** Class design, constructors (default, parameterized, overloaded), instance variables, private fields, accessor/mutator methods, static variables/methods, encapsulation, object instantiation, object arithmetic, recursion
 
 ---
 
